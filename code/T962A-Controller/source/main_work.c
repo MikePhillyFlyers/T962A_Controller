@@ -368,7 +368,7 @@ int32_t Main_Work(void)
 
 		if (eeidx && keyspressed & KEY_F3) { // Edit ee profile
 			mode = MAIN_EDIT_PROFILE;
-			current_edit_profile = eeidx;
+			current_edit_profile = curprofile;
 			retval = 0; // Force immediate refresh
 		}
 
